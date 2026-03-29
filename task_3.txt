@@ -1,0 +1,15 @@
+CREATE TABLE products_table (
+    product_id INT ,
+    product_name VARCHAR,
+    category VARCHAR,
+    price INT,
+    stock_quantity INT,
+    supplier_name VARCHAR,
+    supplier_city VARCHAR,
+    supply_date DATE
+)
+
+copy products_table from 'D:\SQL\csv_files\products.csv' delimiter ','
+csv header
+
+select * from products_table

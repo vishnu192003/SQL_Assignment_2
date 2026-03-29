@@ -1,0 +1,4 @@
+SELECT * FROM public.studentsperformance_table
+
+DELETE FROM studentsperformance_table
+WHERE student_id BETWEEN 1 AND 5;

@@ -1,0 +1,8 @@
+INSERT INTO task_1
+(FirstName, LastName, Email, PhoneNumber, HireDate, Salary, DepartmentID, IsActive, JobTitle)
+VALUES
+('Vaishnavi', 'Gajbhiye', 'vaishnavi.gajbhiye@example.com', '9890123456', '2023-03-22', 42000, 2, TRUE, 'HR Executive'),
+('Saurabh', 'Meshram', 'saurabh.meshram@example.com', '9765432101', '2021-11-10', 61000, 1, TRUE, 'Network Engineer'),
+('Pooja', 'Bawane', 'pooja.bawane@example.com', '9876543212', '2020-08-05', 47000, 3, FALSE, 'Account Assistant'),
+('Nikhil', 'Kapse', 'nikhil.kapse@example.com', '9811122233', '2024-01-18', 55000, 2, TRUE, 'Marketing Analyst'),
+('Swapnil', 'Wankhede', 'swapnil.wankhede@example.com', '9823012345', '2022-05-14', 50000, 1, TRUE, 'Software Developer')

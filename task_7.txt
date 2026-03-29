@@ -1,0 +1,6 @@
+
+SELECT * FROM public.task_2
+ORDER BY employeeid ASC 
+
+SELECT *FROM task_2
+WHERE firstname LIKE '%v%';

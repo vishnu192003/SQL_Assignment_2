@@ -1,0 +1,3 @@
+UPDATE employee_deetails_table
+SET department = 0
+WHERE isactive = FALSE;

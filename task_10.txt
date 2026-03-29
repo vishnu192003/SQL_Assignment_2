@@ -1,0 +1,10 @@
+SELECT * FROM public.employee_deetails_table
+
+ALTER TABLE employee_deetails_table
+ADD COLUMN state VARCHAR;
+
+UPDATE employee_deetails_table
+SET state = CASE
+    WHEN isactive = TRUE THEN 'India'
+    ELSE 'USA'
+END;

@@ -1,0 +1,7 @@
+SELECT 
+ full_name AS Name,
+       business_unit AS business_unit_emp
+FROM employee_deetails_table
+WHERE annual_salary BETWEEN 30000 AND 50000;
+
+

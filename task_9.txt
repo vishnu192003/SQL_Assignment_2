@@ -1,0 +1,4 @@
+SELECT * FROM public. Employee_Information
+
+ALTER TABLE  Employee_Information
+RENAME TO Edit_data_dB;
